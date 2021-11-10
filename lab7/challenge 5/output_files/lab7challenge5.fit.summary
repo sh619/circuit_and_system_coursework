@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Dec 18 10:26:25 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : lab7challenge5
+Top-level Entity Name : lab7challenge5
+Family : MAX 10
+Device : 10M50DCF484C7G
+Timing Models : Final
+Total logic elements : 278 / 49,760 ( < 1 % )
+    Total combinational functions : 253 / 49,760 ( < 1 % )
+    Dedicated logic registers : 107 / 49,760 ( < 1 % )
+Total registers : 107
+Total pins : 38 / 360 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 73,728 / 1,677,312 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

@@ -1,0 +1,295 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab4task1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/E2_circuit_system/lab4/task1 {C:/E2_circuit_system/lab4/task1/counter_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:05 on Nov 18,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/E2_circuit_system/lab4/task1" C:/E2_circuit_system/lab4/task1/counter_4.v 
+# -- Compiling module counter_4
+# 
+# Top level modules:
+# 	counter_4
+# End time: 15:00:05 on Nov 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vsim -gui -l msim_transcript work.counter_4
+# vsim -gui -l msim_transcript work.counter_4 
+# Start time: 15:01:59 on Nov 18,2020
+# Loading work.counter_4
+add wave clock enable reset
+add wave -h count
+force enable 1
+force reset 0
+run 100ns
+force clock 0 0, 1 10ns -repeat 20ns
+force reset 0
+force enable 1
+run 100ns
+run 100ns
+delte
+# invalid command name "delte"
+delete
+# wrong # args: should be one of...
+#   delete class name ?name...?
+#   delete list ?arg arg ...?
+#   delete log ?arg arg ...?
+#   delete object name ?name...?
+#   delete virtual ?arg arg ...?
+#   delete wave ?arg arg ...?
+delete wave
+# Usage: delete wave [-window <wname>] <item_name>
+vsim>restart
+# invalid command name "vsim>restart"
+add wave clock enable reset
+add wave -h count
+vsim>restart
+# invalid command name "vsim>restart"
+restart
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+do tb_counter.d
+# Cannot open macro file: tb_counter.d
+do tb_counter.do
+# Cannot open macro file: tb_counter.do
+cd
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+restart
+do tb_counter
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# Error in macro ./tb_counter line 3
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# 
+#     while executing
+# "force wave clock 0 0, 1 10ns -repeat 20ns"
+restart
+restart
+do tb_counter
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# Error in macro ./tb_counter line 3
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# 
+#     while executing
+# "force wave clock 0 0, 1 10ns -repeat 20ns"
+add wave clock enable reset
+restart
+do tb_counter
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# Error in macro ./tb_counter line 3
+# ** Error (suppressible): (vsim-4008) Object 'wave' not found.
+# 
+#     while executing
+# "force wave clock 0 0, 1 10ns -repeat 20ns"
+do tb_counter
+step
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step -over
+step -over
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step -over
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step
+step
+# Next activity is in 10 ns.
+# 
+# Next activity is in 10 ns.
+step
+step
+step -current
+step -current
+step -current
+step -current
+step -current
+# End time: 20:10:14 on Nov 18,2020, Elapsed time: 5:08:15
+# Errors: 20, Warnings: 0

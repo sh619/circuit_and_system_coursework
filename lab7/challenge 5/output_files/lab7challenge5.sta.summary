@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MAX10_CLK1_50'
+Slack : -3.762
+TNS   : -255.048
+
+Type  : Slow 1200mV 85C Model Setup 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -1.711
+TNS   : -14.101
+
+Type  : Slow 1200mV 85C Model Setup 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -1.618
+TNS   : -26.451
+
+Type  : Slow 1200mV 85C Model Hold 'MAX10_CLK1_50'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -239.013
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -1.403
+TNS   : -26.657
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -1.403
+TNS   : -18.239
+
+Type  : Slow 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -3.351
+TNS   : -224.497
+
+Type  : Slow 1200mV 0C Model Setup 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -1.485
+TNS   : -11.626
+
+Type  : Slow 1200mV 0C Model Setup 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -1.402
+TNS   : -22.488
+
+Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -234.207
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -1.403
+TNS   : -26.657
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -1.403
+TNS   : -18.239
+
+Type  : Fast 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -1.170
+TNS   : -50.608
+
+Type  : Fast 1200mV 0C Model Setup 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -0.124
+TNS   : -0.432
+
+Type  : Fast 1200mV 0C Model Setup 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -0.103
+TNS   : -0.103
+
+Type  : Fast 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -156.679
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spi2dac:SPI_DAC_INTERFACE|clk_1MHz'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spi2adc:SPI_ADC_INTERFACE|adc_cs'
+Slack : -1.000
+TNS   : -13.000
+
+------------------------------------------------------------

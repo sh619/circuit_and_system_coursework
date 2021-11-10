@@ -1,0 +1,10 @@
+module lab4task2_cascade(
+KEY,
+MAX10_CLK1_50,
+HEX0,
+HEX1,
+HEX2,
+HEX3,
+HEX4
+);
+

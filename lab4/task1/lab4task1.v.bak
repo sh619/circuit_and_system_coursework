@@ -1,0 +1,16 @@
+module lab4task1(
+SW,
+enable,
+HEX0,
+reset,
+count
+)
+
+input [1:0]SW;
+input enable;
+output HEX0;
+output [3:0]count;
+counter_4 co(SW[1],SW[0],1b'1,count);
+hex_to_7seg seg0(HEX0,count[3:0]);
+
+endmodule

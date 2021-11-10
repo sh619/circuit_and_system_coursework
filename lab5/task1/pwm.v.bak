@@ -1,0 +1,28 @@
+module pwm(clk,data_in,pwm_out,load,max)
+
+input clk;
+input [9:0]data_in;
+input load;
+input [9:0]max;
+output pwm_out;
+
+reg [9:0] d;
+reg [9:0] count;
+
+
+
+always(@posedge clk)
+if(load==1b'1)
+data_in <= d;
+
+if(count==max) begin
+count <= 10b'0;
+else
+count <= count +1b'1; end
+
+if (count >= d) begin
+pwm_out=0;
+else 
+pwm_out=1; end
+
+endmodule

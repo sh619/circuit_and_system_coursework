@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DAC_CS",
+					"strict" : false
+				},
+				{
+					"name" : "DAC_SCK",
+					"strict" : false
+				},
+				{
+					"name" : "DAC_SDI",
+					"strict" : false
+				},
+				{
+					"name" : "MAX10_CLK1_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

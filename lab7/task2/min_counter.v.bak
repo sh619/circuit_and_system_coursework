@@ -1,0 +1,30 @@
+module min_counter(KEY,enable,min_tick,min);
+
+input KEY[0];
+input enable;
+
+output min_tick;
+output [15:0]min;
+reg [15:0] N;
+
+initial N=16'd59;
+
+
+
+
+
+
+
+
+always (@posedge enable) begin
+if (N==0)
+  if(min==16'd60) begin
+		min= 16b'0;
+		min_tick <=1'b1; end
+		else begin
+     min_tick <=1'b1;
+     min <=min+16'd1; end
+ else 
+ N <=N-1'b1;
+ end
+ 

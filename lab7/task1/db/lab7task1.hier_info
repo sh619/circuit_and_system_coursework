@@ -1,0 +1,120 @@
+|lab7task1
+MAX10_CLK1_50 => MAX10_CLK1_50.IN3
+DAC_CS << spi2dac:dac.port4
+DAC_SCK << spi2dac:dac.port5
+DAC_SDI << spi2dac:dac.port3
+
+
+|lab7task1|clktick:GEN_10K
+clkin => count[0].CLK
+clkin => count[1].CLK
+clkin => count[2].CLK
+clkin => count[3].CLK
+clkin => count[4].CLK
+clkin => count[5].CLK
+clkin => count[6].CLK
+clkin => count[7].CLK
+clkin => count[8].CLK
+clkin => count[9].CLK
+clkin => count[10].CLK
+clkin => count[11].CLK
+clkin => count[12].CLK
+clkin => count[13].CLK
+clkin => count[14].CLK
+clkin => count[15].CLK
+clkin => tick~reg0.CLK
+tick <= tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+N[0] => count.DATAB
+N[1] => count.DATAB
+N[2] => count.DATAB
+N[3] => count.DATAB
+N[4] => count.DATAB
+N[5] => count.DATAB
+N[6] => count.DATAB
+N[7] => count.DATAB
+N[8] => count.DATAB
+N[9] => count.DATAB
+N[10] => count.DATAB
+N[11] => count.DATAB
+N[12] => count.DATAB
+N[13] => count.DATAB
+N[14] => count.DATAB
+N[15] => count.DATAB
+enable => count[0].ENA
+enable => count[1].ENA
+enable => count[2].ENA
+enable => count[3].ENA
+enable => count[4].ENA
+enable => count[5].ENA
+enable => count[6].ENA
+enable => count[7].ENA
+enable => count[8].ENA
+enable => count[9].ENA
+enable => count[10].ENA
+enable => count[11].ENA
+enable => count[12].ENA
+enable => count[13].ENA
+enable => count[14].ENA
+enable => count[15].ENA
+enable => tick~reg0.ENA
+
+
+|lab7task1|LFSR_10:psrb
+data_out[0] <= sreg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= sreg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= sreg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= sreg[3].DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= sreg[4].DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= sreg[5].DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= sreg[6].DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= sreg[7].DB_MAX_OUTPUT_PORT_TYPE
+data_out[8] <= sreg[8].DB_MAX_OUTPUT_PORT_TYPE
+data_out[9] <= sreg[9].DB_MAX_OUTPUT_PORT_TYPE
+clk => sreg[0].CLK
+clk => sreg[1].CLK
+clk => sreg[2].CLK
+clk => sreg[3].CLK
+clk => sreg[4].CLK
+clk => sreg[5].CLK
+clk => sreg[6].CLK
+clk => sreg[7].CLK
+clk => sreg[8].CLK
+clk => sreg[9].CLK
+enable => sreg[0].ENA
+enable => sreg[1].ENA
+enable => sreg[2].ENA
+enable => sreg[3].ENA
+enable => sreg[4].ENA
+enable => sreg[5].ENA
+enable => sreg[6].ENA
+enable => sreg[7].ENA
+enable => sreg[8].ENA
+enable => sreg[9].ENA
+
+
+|lab7task1|spi2dac:dac
+sysclk => clk_1MHz.CLK
+sysclk => ctr[0].CLK
+sysclk => ctr[1].CLK
+sysclk => ctr[2].CLK
+sysclk => ctr[3].CLK
+sysclk => ctr[4].CLK
+sysclk => sr_state~4.DATAIN
+data_in[0] => shift_reg.DATAB
+data_in[1] => shift_reg.DATAB
+data_in[2] => shift_reg.DATAB
+data_in[3] => shift_reg.DATAB
+data_in[4] => shift_reg.DATAB
+data_in[5] => shift_reg.DATAB
+data_in[6] => shift_reg.DATAB
+data_in[7] => shift_reg.DATAB
+data_in[8] => shift_reg.DATAB
+data_in[9] => shift_reg.DATAB
+load => sr_state.OUTPUTSELECT
+load => sr_state.OUTPUTSELECT
+load => sr_state.OUTPUTSELECT
+dac_sdi <= shift_reg[15].DB_MAX_OUTPUT_PORT_TYPE
+dac_cs <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+dac_sck <= dac_sck.DB_MAX_OUTPUT_PORT_TYPE
+
+

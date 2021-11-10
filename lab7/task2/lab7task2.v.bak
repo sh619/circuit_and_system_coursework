@@ -1,0 +1,11 @@
+module lab7task2(MAX10_CLK1_50,HEX0,HEX1,HEX2,HEX3)
+
+input MAX10_CLK1_50;
+
+output HEX0,HEX1,HEX2,HEX3;
+
+wire sec_tick
+
+sec_counter sec(MAX10_CLK1_50,sec_tick)
+
+HEX0[7]=sec_tick;
